@@ -62,6 +62,6 @@ def send_email(send_from, send_to, subject, text, files=None):
 if __name__ == "__main__":
     json = get_job_postings()[1:]
     output_jobs_to_xls(json)
-    send_email('Enter Sending Email Here', ['contact@preneure.com'],
+    send_email('Enter Sending Email Here', ['ghheskey@gmail.com.com'],
                'Jobs Posting', 'Please, find attached a list of job posting to this email',
                files=['remote_jobs.xls'])
